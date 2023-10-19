@@ -1,0 +1,138 @@
+html,body {
+  font-size: 14px;
+  margin:0;
+  padding:0;
+}
+
+/* Example styles for the header */
+header {
+    background-image: url('../pexels-cottonbro-studio-8387437.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 800px;
+    max-width: auto;
+    padding-top: 20px; /* Adjust the padding value to move the heading downward */
+}
+/* Example styles for the navigation menu */
+nav {
+    text-align: left; /* Align the text within the nav element to the left */
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+/* Styles for the right-aligned elements */
+nav .right-align {
+    float: right; /* Float the element to the right */
+    margin-right: 20px; /* Add some right margin to separate it from the other elements */
+}
+/* Styles for links to appear as normal text */
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Set the text color to a desired color */
+}
+
+    nav a:hover {
+        color: #ccc; /* Change the text color on hover if desired */
+    }
+
+/* Add a comment when links are hovered over */
+nav a:hover::before {
+    content: ""; /* Display a comment indicating it's a link on hover */
+    color: #999; /* Set the color of the comment text */
+    font-size: 12px; /* Adjust font size for the comment as needed */
+}
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    /* Use fallback fonts in case the preferred font isn't available */
+}
+
+/* Specify fonts for specific elements if needed */
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p, a, li {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* CSS to make the heading text relatively bigger */
+header h1 {
+    font-size: 36px; /* Adjust the font size as needed */
+    margin-top: 20px; /* Adjust the margin value to lower the heading vertically */
+}
+header p {
+    font-size: 18px; /* Adjust the font size of the summary text as needed */
+    color: #666; /* Set the text color to a desired color */
+    margin-top: 10px; /* Adjust the top margin to position the text relative to the heading */
+}
+
+.quote-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px; /* Add rounded corners */
+    text-decoration: none; /* Remove underline */
+    margin-top: 10px; /* Add spacing between the text and the button */
+    padding: 15px 30px; /* Increase padding for a 30% bigger button */
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+    .quote-button:hover {
+        background-color: #0056b3; /* Change color on hover */
+        font-size: 23px; /* Increase font size for a 30% bigger button */
+    }
+
+/* CSS for styling the responsive link for the services */
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    background-color: #333;
+}
+
+.service {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s; /* Add a smooth transition for the size change */
+    margin-top:-30px;
+    height:300px;
+}
+
+    .service a {
+        display: block;
+        text-decoration: none;
+        color: #00ff00;
+    }
+
+    .service:hover {
+        transform: scale(1.1); /* Change size on hover (1.1 is 110% of the original size) */
+    }
+
+    .service img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        transition: transform 0.3s; /* Add a smooth transition for the size change */
+    }
+
+    .service:hover img {
+        transform: scale(1.1); /* Change size of the image on hover */
+    }
+
+    .service h2 {
+        font-size: 18px;
+        margin: 10px 0;
+    }

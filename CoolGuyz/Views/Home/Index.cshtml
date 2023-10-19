@@ -1,0 +1,56 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+    <title>@ViewData["Title"] - CoolGuyz</title>
+    <link rel="stylesheet" href="~/css/style.css"  />
+</head>
+<header>
+    <nav>
+        <ul>
+            @*<li><a href="index.aspx">Home</a></li>*@
+            <li><a href="services.aspx">Services</a></li>
+            <li><a href="appointments.aspx">Appointments</a></li>
+            <li><a href="aboutus.aspx">About Us</a></li>
+            <li><a href="blog.aspx">Blog</a></li>
+            <li><a href="contactus.aspx">Contact</a></li>
+            <li class="right-align"><a href="login.aspx">Admin</a></li>
+        </ul>
+    </nav>
+    <img src="~/img-20200118-wa0008-removebg-preview.png" width="20%" alt="Logo">
+    <h1>Welcome to CoolGuyz Automotives</h1>
+    <p>Discover our top-notch panel beating, spray painting, rust removal, rubberising, and mechanical repair services.</p>
+    <a href="quotation.html" class="quote-button">Get a Quote</a>
+</header>
+<section class="services">
+    <div class="service">
+        <img src="panel_beating.jpg" alt="Panel Beating">
+        <h2>Panel Beating</h2>
+        <p>Our expert panel beaters will restore your vehicle's body to its original condition, repairing dents and damages with precision.</p>
+    </div>
+    <div class="service">
+        <img src="mechanical.jpg" alt="Mechanical Repairs">
+        <h2>Mechanical Repairs</h2>
+        <p>From routine maintenance to complex mechanical repairs, our skilled technicians will keep your vehicle running smoothly.</p>
+    </div>
+    <div class="service">
+        <img src="rubberising.jpg" alt="Rubberising">
+        <h2>Rubberising</h2>
+        <p>We provide professional rubberising services to protect your vehicle's cargo area, enhancing durability and preventing damage.</p>
+    </div>
+    <div class="service">
+        <img src="headlights_renewal.jpg" alt="Headlights Renewal">
+        <h2>Headlights Renewal</h2>
+        <p>Restore clarity and brightness to your headlights with our renewal services, ensuring safer night driving.</p>
+    </div>
+    <div class="service">
+        <img src="diagnostics.jpg" alt="Diagnostics">
+        <h2>Diagnostics</h2>
+        <p>We use advanced diagnostic tools to identify and address vehicle issues, providing accurate solutions.</p>
+    </div>
+    <div class="service">
+        <img src="rust_removal.jpg" alt="Rust Removal">
+        <h2>Rust Removal</h2>
+        <p>Our rust removal experts will eliminate corrosion, preventing further damage and extending your vehicle's life.</p>
+    </div>
+</section>
